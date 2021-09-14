@@ -91,12 +91,12 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video",
+        "collection": {
+          "type": "collection",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
-            "description": "Describe the video",
-            "image_padding": false
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
           }
         },
         "product": {
@@ -108,19 +108,19 @@
             "secondary_background": false
           }
         },
-        "collection": {
-          "type": "collection",
+        "video": {
+          "type": "video",
           "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
+            "video_url": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+            "description": "Describe the video",
+            "image_padding": false
           }
         }
       },
       "block_order": [
-        "video",
+        "collection",
         "product",
-        "collection"
+        "video"
       ],
       "settings": {
         "heading": "Multimedia collage",
@@ -140,14 +140,14 @@
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "column2": {
           "type": "column",
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
-        "column2": {
+        "column1": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -163,8 +163,8 @@
         }
       },
       "block_order": [
-        "column1",
         "column2",
+        "column1",
         "column3"
       ],
       "settings": {
