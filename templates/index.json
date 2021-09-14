@@ -27,6 +27,7 @@
         "heading"
       ],
       "settings": {
+        "image_2": "shopify:\/\/shop_images\/wallpaper.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
@@ -94,7 +95,7 @@
           "type": "video",
           "disabled": true,
           "settings": {
-            "video_url": "https:\/\/www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
             "description": "Describe the video",
             "image_padding": false
           }
@@ -132,7 +133,7 @@
       "type": "video",
       "settings": {
         "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
         "description": "",
         "full_width": false
       }
